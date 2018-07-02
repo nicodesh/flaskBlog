@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Titre de la page</title>
+    </head>
+    <body>
+        {% include 'layouts/partials/_nav.html' %}
+
+        {% block body %}{% endblock %}
+        
+        {% include 'layouts/partials/_footer.html' %}
+    </body>
+</html>
