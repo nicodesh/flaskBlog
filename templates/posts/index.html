@@ -1,5 +1,7 @@
 {% extends 'layouts/default.html' %}
 
+{% block title %}The blog Homepage{% endblock %}
+
 {% block body %}
     <h1>Blog ({{ pluralize(posts|length, 'post') }})</h1>
 
